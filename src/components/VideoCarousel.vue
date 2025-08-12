@@ -18,21 +18,9 @@
 
 </template>
 <script setup>
-import v1 from '../assets/video/1.mp4'
-import v2 from '../assets/video/2.mp4'
-import v3 from '../assets/video/3.mp4'
-import v4 from '../assets/video/4.mp4'
-import v5 from '../assets/video/5.mp4'
-import v6 from '../assets/video/6.mp4'
-const videos = [
-    { src: v1 },
-    { src: v2 },
-    { src: v3 },
-    { src: v4 },
-    { src: v5 },
-    { src: v6 }
+import { videos } from '../assets/video/videos';
 
-]
+
 
 </script>
 <style scoped>
